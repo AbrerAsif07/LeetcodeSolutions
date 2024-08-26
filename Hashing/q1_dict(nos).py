@@ -11,6 +11,9 @@ x = int(input("Enter no whose repition value you want to see = "))
 print(dic.get(x, 0))
 
 
-lst = [5, 2, 1]
-for num in lst:
+lst1 = [5, 2, 1]
+for num in lst1:
     print(dic.get(num, 0))
+
+# T.C.= O(n+m) where n= len of lst and m= len of lst1
+# S.C.= O(n)
