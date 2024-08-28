@@ -9,3 +9,6 @@ def reverse(x: int) -> int:
 
 
 print(reverse(123))
+
+# TC= O(log10N)
+# SC= O(1)

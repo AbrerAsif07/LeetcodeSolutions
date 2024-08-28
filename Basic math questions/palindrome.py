@@ -11,5 +11,5 @@ def check_palindrome(num: int) -> bool:
 print(check_palindrome(1))
 
 
-TC = O(log10N)
-SC = O(1)
+# TC = O(log10N)
+# SC = O(1)
