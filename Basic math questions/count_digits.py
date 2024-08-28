@@ -1,3 +1,4 @@
+# I need to submerge myself more into coding, we win
 # Brute force approach
 # class Solution:
 #     def evenlyDivides(self, N):
