@@ -6,3 +6,4 @@ def func(num):
 
 x = func(4)
 print(x)
+print("Asif")
