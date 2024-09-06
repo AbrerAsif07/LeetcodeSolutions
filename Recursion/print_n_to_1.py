@@ -7,13 +7,3 @@ def func(i, n):
 
 
 func(5, 1)
-
-
-def func(i, n):
-    if i > n:
-        return
-    func(i + 1, n)
-    print(i)
-
-
-func(1, 4)

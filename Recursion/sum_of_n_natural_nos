@@ -4,6 +4,6 @@ def func(num):
     return num + func(num - 1)
 
 
-x = func(4)
+x = func(10)
 print(x)
 print("Asif")
