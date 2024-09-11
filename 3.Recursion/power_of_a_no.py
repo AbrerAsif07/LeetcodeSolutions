@@ -27,3 +27,6 @@ def pow(b, p):
 
 x = pow(2, 4)
 print(x)
+
+# SC = O(POWER)
+# TC= O(POWER)  As it runs for the no of power 
