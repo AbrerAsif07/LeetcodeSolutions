@@ -42,3 +42,6 @@ arr = [0, 0, 1, 1, 1, 2, 4, 4, 4, 5, 5, 6, 6, 6, 6]
 unique_elements, sorted_array = RemoveDuplicates(arr)
 print(f"unique elements= {unique_elements}")
 print(f"sorted array= {sorted_array}")
+
+# TC=O(N)
+# SC=O(1)
