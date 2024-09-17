@@ -7,3 +7,6 @@ def missNo(nums):
 nums = [3, 0, 1]
 missing_no = missNo(nums)
 print(f"missing no is = {missing_no}")
+
+# TC = O(N)
+# SC=O(1)
