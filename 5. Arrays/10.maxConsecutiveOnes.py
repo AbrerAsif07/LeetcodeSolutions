@@ -13,7 +13,8 @@ def findMaxConsecutiveOnes(arr):
 
     return count1  # Return the maximum number of consecutive 1s
 
-
+# count (the current number of consecutive 1s being counted).
+# count1 (the largest number of consecutive 1s we've found up to that point).
 # Example usage
 array = [1, 1, 0, 1, 1, 1]
 print(findMaxConsecutiveOnes(array))  # Output: 3

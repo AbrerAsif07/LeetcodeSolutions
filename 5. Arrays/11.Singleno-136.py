@@ -1,3 +1,4 @@
+# Optimal approach
 def singleno(nums):
     dic = {}
     for i in range(len(nums)):
@@ -12,3 +13,6 @@ def singleno(nums):
 
 nums = [4, 1, 2, 1, 2]
 print(singleno(nums))
+
+# tc= O(N+N/2)
+# sc=O(N/2)
