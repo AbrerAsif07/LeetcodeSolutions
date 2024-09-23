@@ -3,6 +3,7 @@
 # You may assume that the majority element always exists in the array
 
 
+# SOLVED USING MOORE"S ALGO
 def majElement(nums):
     candidate = nums[0]
     count = 1
@@ -22,3 +23,5 @@ def majElement(nums):
 nums = [5, 5, 2, 1, 1, 5, 5, 7, 5, 5, 8, 5, 5, 5, 5]
 x = majElement(nums)
 print(x)
+# tc=O(N)
+# SC=O(1)
