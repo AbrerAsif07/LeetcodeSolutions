@@ -10,10 +10,10 @@ def NextPermutation(nums):
             nums.reverse()
             return
 
-        for i in range(n - 1, index, -1):
-            if nums[i] > nums[index]:
-                nums[i], nums[index] = nums[index], nums[i]
-                break
+    for i in range(n - 1, index, -1):
+        if nums[i] > nums[index]:
+            nums[i], nums[index] = nums[index], nums[i]
+            break
 
         nums[:] = nums[0 : index + 1] + reversed(nums[index + 1 :])
     return nums
