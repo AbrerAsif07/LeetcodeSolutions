@@ -24,3 +24,5 @@ def reArrange(nums):
 nums = [3, 1, -2, -5, 2, -4]
 x = reArrange(nums)
 print(x)
+#TC=O(N)
+# SC=O(N)
