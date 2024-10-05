@@ -49,3 +49,4 @@ print(searchRange(nums, target))  # Output: [-1, -1]
 nums = []
 target = 0
 print(searchRange(nums, target))  # Output: [-1, -1]
+print("hello world")
