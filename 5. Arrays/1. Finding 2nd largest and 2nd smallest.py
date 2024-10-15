@@ -60,3 +60,4 @@ arr = [5, 10, 13, 67, 89, -100, 55, 78]
 second_largest, second_smallest = secondLargest(arr)
 print(f"Second largest element = {second_largest}")
 print(f"Second smallest element = {second_smallest}")
+print("hello world")
