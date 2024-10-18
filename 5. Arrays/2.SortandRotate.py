@@ -2,7 +2,9 @@ def sortRotate(arr):
     n = len(arr)
     rotations = 0
     for i in range(0, n):
-        if arr[i] > arr[(i + 1) % n]:
+        if (
+            arr[i] > arr[(i + 1) % n]
+        ):  # rotations allowed =1 only, and last element to check with first modulus used
             rotations += 1
         if rotations > 1:
             return False
