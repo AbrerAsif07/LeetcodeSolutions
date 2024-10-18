@@ -1,0 +1,2 @@
+def FindPosi(nums,target):
+                             
