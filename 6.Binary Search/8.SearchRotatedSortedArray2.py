@@ -13,7 +13,7 @@ def search(nums, target):
             low = low + 1
             high = high - 1
 
-        elif nums[low] <= target:
+        elif nums[low] <= nums[mid]:
             if nums[low] <= target < nums[mid]:
                 high = mid - 1
 

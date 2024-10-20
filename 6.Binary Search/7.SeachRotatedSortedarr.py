@@ -8,15 +8,17 @@ def RotatedSortedSearch(nums, target):
         if nums[mid] == target:
             return mid
 
-        if nums[low] <= nums[mid]:
-            if nums[low] <= target <= nums[mid]:
+        if nums[low] <= nums[mid]:  # Checks if left side arr is sorted
+            if nums[low] <= target <= nums[mid]:  # Checks if target exists in left arr
                 high = mid - 1
 
             else:
                 low = mid + 1
 
         else:
-            if nums[mid] <= target <= nums[high]:
+            if (
+                nums[mid] <= target <= nums[high]
+            ):  # Checks if target exists in right arr
                 low = mid + 1
             else:
                 high = mid - 1
