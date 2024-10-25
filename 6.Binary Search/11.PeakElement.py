@@ -15,3 +15,6 @@ def peakElement(nums):  # return type is index
 nums = [5, 4, 3, 2, 1]
 x = peakElement(nums)
 print(x)
+
+a = 5
+print(type(a))

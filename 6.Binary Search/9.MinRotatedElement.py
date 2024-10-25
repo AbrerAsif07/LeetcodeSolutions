@@ -6,12 +6,12 @@ def findMin(nums):
     while low <= high:
         mid = (low + high) // 2
 
-        if nums[low] <= nums[mid]:
+        if nums[low] <= nums[mid]: #if it is smaller it indicates that sub arr is sorted, so min will lie on other side
             minimum = min(minimum, nums[low])
             low = mid + 1
 
         else:
-            minimum = min(minimum, nums[low])
+            minimum = min(minimum, nums[mid])
             high = mid - 1
 
     return minimum
