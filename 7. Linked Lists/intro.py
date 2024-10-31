@@ -1,5 +1,5 @@
 class Node:  # class constructor
-    def __init__(self, val=None) -> None:
+    def __init__(self, val) -> None:
         self.val = val
         self.next = None
 
@@ -15,5 +15,7 @@ n2.next = n3
 print(n1.next.next)  # adresses of linked lists nodes
 print(n3)
 
-print(n1.next.next.val)
+print(n1.next.next.val) #printing  value ny next reference 
 print(n3.val)
+
+#Methods to append at head or at last 
