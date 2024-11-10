@@ -8,7 +8,7 @@ def check_palindrome(num: int) -> bool:
     return result == num
 
 
-print(check_palindrome(1))
+print(check_palindrome(-5))
 
 
 # TC = O(log10N)

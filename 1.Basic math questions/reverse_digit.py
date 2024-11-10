@@ -1,14 +1,14 @@
-# def reverse(x: int) -> int:
-#     n = x
-#     result = 0
-#     while n > 0:
-#         ld = n % 10
-#         result = (result * 10) + ld
-#         n = n // 10
-#     return result
+def reverse(x: int) -> int:
+    n = x
+    result = 0
+    while n > 0:
+        ld = n % 10
+        result = (result * 10) + ld
+        n = n // 10
+    return result
 
 
-# print(reverse(123))
+print(reverse(1))
 
 
 # TC= O(log10N)
@@ -20,10 +20,10 @@ def revint(n):
     # Handle negative numbers by keeping track of the sign
     is_negative = n < 0
     n = abs(n)  # Work with absolute value for simplicity
-
-    while n > 0:
-        last_digit = n % 10  # extract last digit
-        n = n // 10  # remove last digit from n
+    x = n  # we do want to changer actual value of n, since we will modify it so dummy var
+    while x > 0:
+        last_digit = x % 10  # extract last digit
+        x = x // 10  # remove last digit from n
         rever_num = (rever_num * 10) + last_digit
 
     # Reapply the negative sign if the original number was negative
