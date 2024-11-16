@@ -13,3 +13,5 @@ def rotateString(s: str, goal: str) -> bool:
 
 
 print(rotateString(s="abcde", goal="abced"))
+# Tc=O(n)
+# sc=O(N)
